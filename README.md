@@ -1,70 +1,73 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Media Player Application
+
+Welcome to the Media Player Application! This project is a modern media player built with React, designed to provide an interactive and seamless multimedia experience. The app allows users to search for, play, and manage various media files, including videos and music, directly from a user-friendly interface.
+
+## Features
+
+- **Search and Play Media**: Find and play videos and music through a powerful search functionality.
+- **Responsive Design**: The app is optimized for both mobile and desktop devices.
+- **Video Player**: An embedded player to play video content with controls for pause, play, and volume.
+- **Channel & Video Details**: View details for videos and channels, including video statistics and channel information.
+- **Related Content**: Discover more videos based on your current playback.
+
+## Getting Started
+
+To get the project up and running locally, follow these steps:
+
+### 2. Install dependencies
+
+Navigate to the project directory and install the required dependencies:
+
+```bash
+cd media-player
+npm install
+```
+
+### 3. Run the app
+
+Start the development server and open the app in your browser:
+
+```bash
+npm start
+```
+
+This will open the app at [http://localhost:3000](http://localhost:3000). The page will automatically reload when you make changes.
+
+---
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run the following commands:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in interactive watch mode. This is useful if you want to write or run tests for the app's features. For more details, see the section about [running tests](https://reactjs.org/docs/testing.html).
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Builds the app for production. It will optimize and bundle the app for the best performance and create a `build` folder. This is the version that should be deployed.
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Note**: This is a one-way operation. Once you `eject`, you can't go back.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you're looking to customize the build configuration (Webpack, Babel, ESLint, etc.), you can eject the app. This will copy all the configuration files and dependencies into the project so you can manage them directly. You are no longer limited to the default configuration.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more about how the app works and how to modify it in the following documentation:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [React documentation](https://reactjs.org/docs/getting-started.html)
+- [Material-UI documentation](https://mui.com/getting-started/installation/)
+- [React Router documentation](https://reactrouter.com/)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
